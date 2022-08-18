@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BOPlay</string>
+
+    <string name="error_no_yt_link">Not a valid YouTube link!</string>
+    <string name="app_update">Couldn\'t extract URLs you may need an update:
+        <a href="https://github.com/HaarigerHarald/android-youtubeExtractor/releases/latest">latest GitHub release</a></string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/drawable/ic_block.xml" value="0.215" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/drawable/ic_fast_rewind.xml" value="0.215" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/drawable/ic_music.xml" value="0.15" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/drawable/ic_prev.xml" value="0.215" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/drawable/list_bg.xml" value="0.1" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/layout/activity_download.xml" value="0.22" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/layout/activity_player.xml" value="0.1" />
+        <entry key="..\:/Users/berat/AndroidStudioProjects/BOPlay/app/src/main/res/layout/list_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DownloadActivity">
+
+    <TextView
+        android:id="@+id/text_url_download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/youtube_play"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-50dp"
+        android:text="Youtube Url Downloader"
+        android:textSize="20dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/youtube_link_et"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="141dp"
+        android:layout_marginBottom="-40dp"
+        android:onClick="playButton"
+        android:text="play"
+        app:layout_column="0"
+        app:layout_row="1" />
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/youtube_link_et"
+        android:layout_alignParentRight="true"
+        android:onClick="downloadButton"
+        android:text="download" />
+
+    <EditText
+        android:id="@+id/youtube_link_et"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/text_url_download"
+        android:hint="Enter Valid url"
+        android:layout_marginBottom="-50dp" />
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youtube_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+    </com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView>
+
+</RelativeLayout>
