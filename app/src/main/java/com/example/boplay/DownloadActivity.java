@@ -10,7 +10,6 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.util.SparseArray;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -26,9 +25,7 @@ import at.huber.youtubeExtractor.YtFile;
 public class DownloadActivity extends AppCompatActivity {
 
     private static final int ITAG_FOR_AUDIO = 140;
-
     String link = "";
-
     YouTubePlayerView youTubePlayerView;
     Button btn_download, btn_play;
     EditText link_et;
@@ -49,7 +46,7 @@ public class DownloadActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        youTubePlayerView.release();
+        youTubePlayerView.removeAllViews();
     }
 
 
@@ -69,7 +66,6 @@ public class DownloadActivity extends AppCompatActivity {
             youTubePlayerView.addYouTubePlayerListener(new AbstractYouTubePlayerListener() {
                 @Override
                 public void onReady(@NonNull YouTubePlayer youTubePlayer) {
-                    super.onReady(youTubePlayer);
                     youTubePlayer.cueVideo(videoId, 0);
                 }
             });
@@ -77,10 +73,16 @@ public class DownloadActivity extends AppCompatActivity {
             Toast.makeText(this, R.string.error_no_yt_link, Toast.LENGTH_SHORT).show();
         }
     }
-    public String getVideoID(String id){
-        int startIndex=id.indexOf("v=")+2;
-        int stopIndex=startIndex+11;
-        String sub=id.substring(startIndex,stopIndex);
+
+    public void stopButton(View v) {
+        youTubePlayerView.removeAllViews();
+        youTubePlayerView.setVisibility(View.GONE);
+    }
+
+    public String getVideoID(String id) {
+        int startIndex = id.indexOf("v=") + 2;
+        int stopIndex = startIndex + 11;
+        String sub = id.substring(startIndex, stopIndex);
         return sub;
     }
 
@@ -104,12 +106,12 @@ public class DownloadActivity extends AppCompatActivity {
                     String downloadUrl = ytFiles.get(ITAG_FOR_AUDIO).getUrl();
                     DownloadManager downloadmanager = (DownloadManager) getSystemService(Context.DOWNLOAD_SERVICE);
                     DownloadManager.Request request = new DownloadManager.Request(Uri.parse(downloadUrl));
-                    request.setTitle("Youtube MP");
+                    request.setTitle("BOPlayer Downloading");
                     request.setDescription("Downloading");
                     request.setNotificationVisibility(DownloadManager.Request.VISIBILITY_VISIBLE_NOTIFY_COMPLETED);
                     request.setVisibleInDownloadsUi(false);
                     request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS
-                            , getVideoID(link)+".mp3");
+                            , getVideoID(link) + ".mp3");
                     request.setAllowedNetworkTypes(DownloadManager.Request.NETWORK_MOBILE
                             | DownloadManager.Request.NETWORK_WIFI);
                     downloadmanager.enqueue(request);
