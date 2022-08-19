@@ -16,7 +16,7 @@ A simple YouTube Downloader and simple Music Player.
 - YouTube search for download musics
 ### Screenshots
 
- - ![screenshot1](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/Downloading.png)
- - ![screenshot2](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotDownloader.png)
- - ![screenshot3](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotMain.png)
- - ![screenshot4](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotPlayer.png)
+ ![screenshot1](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/Downloading.png)
+ ![screenshot2](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotDownloader.png)
+ ![screenshot3](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotMain.png)
+ ![screenshot4](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotPlayer.png)
