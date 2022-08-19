@@ -9,7 +9,7 @@ A simple YouTube Downloader and simple Music Player.
 - [Gauravk95 Audio Visualizer](https://github.com/PierfrancescoSoffritti/android-youtube-player)
 ### Known Issues
 - Youtube Player doesn't react right. Needs to fix
-- It only takes youtube id while downloading. Can't change music's name
+- It only takes name of music's youtube id while downloading. Can't change music's name
 ### To be added
 - Notification bar for music player
 - A good UI
