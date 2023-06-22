@@ -1,22 +1,48 @@
 # BOPlay
-A simple YouTube Downloader and simple Music Player.
 
-![icon](https://github.com/berattozgul/BOPlay/blob/main/app/src/main/res/drawable/music_icon.png)
+BOPlay is a simple YouTube downloader and music player application for Android. It allows you to download music from YouTube and play it directly within the app.
 
-### Used plugins
-- [Youtube Extractor](https://github.com/HaarigerHarald/android-youtubeExtractor)
-- [Anroid YouTube Player](https://github.com/PierfrancescoSoffritti/android-youtube-player)
-- [Gauravk95 Audio Visualizer](https://github.com/PierfrancescoSoffritti/android-youtube-player)
-### Known Issues
-- Youtube Player doesn't react right. Needs to fix
-- It only takes name of music's youtube id while downloading. Can't change music's name
-### To be added
-- Notification bar for music player
-- A good UI
-- YouTube search for download musics
-### Screenshots
+## Features
 
- ![screenshot1](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/Downloading.png)
- ![screenshot2](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotDownloader.png)
- ![screenshot3](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotMain.png)
- ![screenshot4](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotPlayer.png)
+- Download music from YouTube: BOPlay uses the YouTube Extractor plugin to extract audio streams from YouTube videos and save them as MP3 files on your device.
+
+- Music player: BOPlay provides a simple music player interface where you can play, pause, and control the playback of downloaded music files.
+
+## Screenshots
+
+![Downloading](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/Downloading.png)
+![Downloader](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotDownloader.png)
+![Main Screen](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotMain.png)
+![Player](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotPlayer.png)
+
+## Used Plugins
+
+- [Youtube Extractor](https://github.com/HaarigerHarald/android-youtubeExtractor): This plugin is used to extract audio streams from YouTube videos.
+
+- [Android YouTube Player](https://github.com/PierfrancescoSoffritti/android-youtube-player): BOPlay utilizes this plugin for playing YouTube videos within the app.
+
+- [Gauravk95 Audio Visualizer](https://github.com/gauravk95/audio-visualizer-android): This plugin provides audio visualization capabilities for the music player.
+
+## Known Issues
+
+- YouTube Player doesn't react correctly: There is an issue with the YouTube player functionality, and it needs to be fixed.
+
+- Unable to change music name during download: Currently, BOPlay only saves the downloaded music using the YouTube video ID as the filename. It doesn't allow users to specify custom names for the downloaded music files.
+
+## To be Added
+
+- Notification bar for music player: Implement a notification bar that allows users to control music playback even when the app is running in the background.
+
+- Improved UI: Enhance the user interface to provide a more visually appealing and user-friendly experience.
+
+- YouTube search for downloading music: Add a feature that allows users to search for music directly within the app and download it from YouTube.
+
+## Installation
+
+To install BOPlay on your Android device, follow these steps:
+
+1. Clone or download the BOPlay repository from GitHub.
+
+2. Open the project in Android Studio.
+
+3. Build and run the app on your Android device.
