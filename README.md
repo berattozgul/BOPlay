@@ -43,7 +43,7 @@ To install BOPlay on your Android device, follow these steps:
 
 1. To get started with BOPlay, clone the repository using the following command:
     ```shell
-   git clone https://github.com/berattozgul/IndustryAndroid.git
+   git clone https://github.com/berattozgul/BOPlay.git
 
 2. Open the project in Android Studio.
 
