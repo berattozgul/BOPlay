@@ -10,10 +10,10 @@ BOPlay is a simple YouTube downloader and music player application for Android. 
 
 ## Screenshots
 
-![Downloading](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/Downloading.png)
 ![Downloader](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotDownloader.png)
 ![Main Screen](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotMain.png)
 ![Player](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/ScreenShotPlayer.png)
+![Downloading](https://github.com/berattozgul/BOPlay/blob/main/Screenshots/Downloading.png)
 
 ## Used Plugins
 
