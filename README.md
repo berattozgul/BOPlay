@@ -41,7 +41,9 @@ BOPlay is a simple YouTube downloader and music player application for Android. 
 
 To install BOPlay on your Android device, follow these steps:
 
-1. Clone or download the BOPlay repository from GitHub.
+1. To get started with BOPlay, clone the repository using the following command:
+    ```shell
+   git clone https://github.com/berattozgul/IndustryAndroid.git
 
 2. Open the project in Android Studio.
 
